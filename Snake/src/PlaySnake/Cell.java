@@ -2,7 +2,7 @@ package PlaySnake;
 /**
  * 
  * @author azl11
- *haah11
+ *haah1134543
  */
 public class Cell {
 	 int l=25; 
@@ -22,4 +22,7 @@ public class Cell {
 	public int getY(){
 		return y;
 	}
+	/**
+	 * asdas
+	 */
 }
