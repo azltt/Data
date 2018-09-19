@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE generatorConfiguration PUBLIC "-//mybatis.org//DTD MyBatis Generator Configuration 1.0//EN" "http://mybatis.org/dtd/mybatis-generator-config_1_0.dtd" >
+<generatorConfiguration>
+	<context id="mysql" defaultModelType="flat" targetRuntime="MyBatis3">
+		<property name="javaFileEncoding" value="UTF-8" />
+		<property name="javaFormatter" value="org.mybatis.generator.api.dom.DefaultJavaFormatter" />
+		<property name="xmlFormatter" value="org.mybatis.generator.api.dom.DefaultXmlFormatter" />
+		<property name="autoDelimitKeywords" value="true" />
+		<property name="beginningDelimiter" value="`" />
+		<property name="endingDelimiter" value="`" />
+		<!-- 抑制警告 -->
+		<property name="suppressTypeWarnings" value="true" />
+		<!-- generate entity时，生成hashcode和equals方法 -->
+		<plugin type="org.mybatis.generator.plugins.EqualsHashCodePlugin" />
+		<!-- generate entity时，生成serialVersionUID -->
+		<plugin type="org.mybatis.generator.plugins.SerializablePlugin" />
+		<!-- 这个插件只会增加字符串字段映射到一个JDBC字符的方法 -->
+		<plugin type="org.mybatis.generator.plugins.CaseInsensitiveLikePlugin" />
+		<!-- genenat entity时,生成toString -->
+		<plugin type="org.mybatis.generator.plugins.ToStringPlugin" />
+		<!-- 这个插件添流式builder生成的模型类的方法。 -->
+		<plugin type="org.mybatis.generator.plugins.FluentBuilderMethodsPlugin" />
+		<!-- 这个插件可以被用来指定列充当主键,即使他们不是定义为数据库中的主键。 -->
+		<plugin type="org.mybatis.generator.plugins.VirtualPrimaryKeyPlugin" />
+
+		<!-- <plugin type="org.mybatis.generator.plugins.MapperConfigPlugin"> <property name="targetPackage" value="mybatis" /> <property name="targetProject" value="src/main/resources" /> </plugin> -->
+		<commentGenerator>
+			<!-- 是否去除自动生成的注释，默认false，true：去除；false：不去除 -->
+			<property name="suppressAllComments" value="true" />
+			<!-- 指定在生成的注释是否将包括时间戳，默认是false -->
+			<property name="suppressDate" value="true" />
+		</commentGenerator>
+ 			<jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://localhost/mymall" userId="root" password="" /> 
+<!-- 		<jdbcConnection driverClass="org.postgresql.Driver" connectionURL="jdbc:postgresql://192.168.1.80:5432/zuoer-lbs" userId="dayou" password="letmego" /> -->
+<!-- <jdbcConnection driverClass="com.mysql.jdbc.Driver" connectionURL="jdbc:mysql://127.0.0.1/game_operation" userId="root" password="root" /> -->
+		<javaTypeResolver type="org.mybatis.generator.internal.types.JavaTypeResolverDefaultImpl">
+			<property name="forceBigDecimals" value="false" />
+		</javaTypeResolver>
+		<javaModelGenerator targetPackage="com.azl.pojo" targetProject="src/main/java">
+			<property name="constructorBased" value="false" />
+			<property name="enableSubPackages" value="true" />
+			<property name="immutable" value="false" />
+			<property name="trimStrings" value="true" />
+		</javaModelGenerator>
+
+		<sqlMapGenerator targetPackage="mapper" targetProject="src/main/resources/mybatis">
+			<property name="enableSubPackages" value="true" />
+		</sqlMapGenerator>
+
+		<javaClientGenerator targetPackage="com.azl.mapper" targetProject="src/main/java" type="XMLMAPPER">
+			<property name="enableSubPackages" value="true" />
+		</javaClientGenerator>
+		<table tableName="item" domainObjectName="Item">
+		</table>
+<!--
+			enableSelectByPrimaryKey="true">
+			<generatedKey column="uid" sqlStatement="MySql" />
+		</table> -->
+		<!--<table tableName="u_user_photo" domainObjectName="UserPhoto" enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"
+			enableSelectByPrimaryKey="true">
+			<generatedKey column="photo_id" sqlStatement="MySql" />
+		</table>
+		<table tableName="u_firms" domainObjectName="Firms" enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true" selectByExampleQueryId="true"
+			enableSelectByPrimaryKey="true">
+			<generatedKey column="fid" sqlStatement="MySql" />
+		</table>
+		<table tableName="u_user_complaint" domainObjectName="UserComplaint" enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true"
+			selectByExampleQueryId="true" enableSelectByPrimaryKey="true">
+			<generatedKey column="id" sqlStatement="MySql" />
+		</table>
+		<table tableName="u_user_basic" domainObjectName="UserBasic" enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true"
+			selectByExampleQueryId="true" enableSelectByPrimaryKey="true">
+			<generatedKey column="uid" sqlStatement="MySql" />
+		</table>
+		<table tableName="u_user_verification" domainObjectName="UserVerification" enableCountByExample="true" enableUpdateByExample="true" enableDeleteByExample="true" enableSelectByExample="true"
+			selectByExampleQueryId="true" enableSelectByPrimaryKey="true">
+			<generatedKey column="uid" sqlStatement="MySql" />
+		</table> -->
+	</context>
+</generatorConfiguration>

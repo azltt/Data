@@ -1,0 +1,549 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="province">
+        <item>{"name":"Saudi Arabia", "aid":110000}</item>
+        <item>{"name":"UAE", "aid":120000}</item>
+        <item>{"name":"Lebanon", "aid":130000}</item>
+        <item>{"name":"Kuwait", "aid":140000}</item>
+        <item>{"name":"Qatar", "aid":150000}</item>
+        <item>{"name":"Bahrain", "aid":210000}</item>
+        <item>{"name":"吉林", "aid":220000}</item>
+        <item>{"name":"黑龙江", "aid":230000}</item>
+        <item>{"name":"上海", "aid":310000}</item>
+        <item>{"name":"江苏", "aid":320000}</item>
+        <item>{"name":"浙江", "aid":330000}</item>
+        <item>{"name":"安徽", "aid":340000}</item>
+        <item>{"name":"福建", "aid":350000}</item>
+        <item>{"name":"江西", "aid":360000}</item>
+        <item>{"name":"山东", "aid":370000}</item>
+        <item>{"name":"河南", "aid":410000}</item>
+        <item>{"name":"湖北", "aid":420000}</item>
+        <item>{"name":"湖南", "aid":430000}</item>
+        <item>{"name":"广东", "aid":440000}</item>
+        <item>{"name":"广西", "aid":450000}</item>
+        <item>{"name":"海南", "aid":460000}</item>
+        <item>{"name":"重庆", "aid":500000}</item>
+        <item>{"name":"四川", "aid":510000}</item>
+        <item>{"name":"贵州", "aid":520000}</item>
+        <item>{"name":"云南", "aid":530000}</item>
+        <item>{"name":"西藏", "aid":540000}</item>
+        <item>{"name":"陕西", "aid":610000}</item>
+        <item>{"name":"甘肃", "aid":620000}</item>
+        <item>{"name":"青海", "aid":630000}</item>
+        <item>{"name":"宁夏", "aid":640000}</item>
+        <item>{"name":"新疆", "aid":650000}</item>
+        <item>{"name":"澳門", "aid":820000}</item>
+        <item>{"name":"香港", "aid":810000}</item>
+        <item>{"name":"台湾", "aid":710000}</item>
+    </string-array>
+    <string-array name="hot_city">
+        <item>{"aid":110000, "name":"北京"}</item>
+        <item>{"aid":310000, "name":"上海"}</item>
+        <item>{"aid":440100, "name":"广州", "pid":440000}</item>
+        <item>{"aid":440300, "name":"深圳", "pid":440000}</item>
+    </string-array>
+    <string-array name="municipality">
+        <item>010</item>
+        <item>022</item>
+        <item>021</item>
+        <item>023</item>
+    </string-array>
+    <string-array name="city">
+        <item>{"name":"Riyadh", "aid":110114, "cid":"010", "pid":110000}</item>
+        <item>{"name":"Jidda", "aid":110105, "cid":"010", "pid":110000}</item>
+        <item>{"name":"Dammam", "aid":110101, "cid":"010", "pid":110000}</item>
+        <item>{"name":"Mekka", "aid":110102, "cid":"010", "pid":110000}</item>
+        <item>{"name":"Medina", "aid":110106, "cid":"010", "pid":110000}</item>
+        <item>{"name":"石景山", "aid":110107, "cid":"010", "pid":110000}</item>
+        <item>{"name":"海淀", "aid":110108, "cid":"010", "pid":110000}</item>
+        <item>{"name":"门头沟", "aid":110109, "cid":"010", "pid":110000}</item>
+        <item>{"name":"房山", "aid":110111, "cid":"010", "pid":110000}</item>
+        <item>{"name":"通州", "aid":110112, "cid":"010", "pid":110000}</item>
+        <item>{"name":"顺义", "aid":110113, "cid":"010", "pid":110000}</item>
+        <item>{"name":"大兴", "aid":110115, "cid":"010", "pid":110000}</item>
+        <item>{"name":"怀柔", "aid":110116, "cid":"010", "pid":110000}</item>
+        <item>{"name":"平谷", "aid":110117, "cid":"010", "pid":110000}</item>
+        <item>{"name":"密云", "aid":110118, "cid":"010", "pid":110000}</item>
+        <item>{"name":"延庆", "aid":110119, "cid":"010", "pid":110000}</item>
+        <item>{"name":"Abu Dhabi", "aid":120101, "cid":"022", "pid":120000}</item>
+        <item>{"name":"Dubai", "aid":120102, "cid":"022", "pid":120000}</item>
+        <item>{"name":"Sharjah", "aid":120103, "cid":"022", "pid":120000}</item>
+        <item>{"name":"Ajman", "aid":120104, "cid":"022", "pid":120000}</item>
+        <item>{"name":"Fujairah", "aid":120105, "cid":"022", "pid":120000}</item>
+        <item>{"name":"红桥", "aid":120106, "cid":"022", "pid":120000}</item>
+        <item>{"name":"东丽", "aid":120110, "cid":"022", "pid":120000}</item>
+        <item>{"name":"西青", "aid":120111, "cid":"022", "pid":120000}</item>
+        <item>{"name":"津南", "aid":120112, "cid":"022", "pid":120000}</item>
+        <item>{"name":"北辰", "aid":120113, "cid":"022", "pid":120000}</item>
+        <item>{"name":"武清", "aid":120114, "cid":"022", "pid":120000}</item>
+        <item>{"name":"宝坻", "aid":120115, "cid":"022", "pid":120000}</item>
+        <item>{"name":"滨海新区", "aid":120116, "cid":"022", "pid":120000}</item>
+        <item>{"name":"宁河", "aid":120117, "cid":"022", "pid":120000}</item>
+        <item>{"name":"静海", "aid":120118, "cid":"022", "pid":120000}</item>
+        <item>{"name":"蓟州", "aid":120119, "cid":"022", "pid":120000}</item>
+        <item>{"name":"黄浦", "aid":310101, "cid":"021", "pid":310000}</item>
+        <item>{"name":"徐汇", "aid":310104, "cid":"021", "pid":310000}</item>
+        <item>{"name":"长宁", "aid":310105, "cid":"021", "pid":310000}</item>
+        <item>{"name":"静安", "aid":310106, "cid":"021", "pid":310000}</item>
+        <item>{"name":"普陀", "aid":310107, "cid":"021", "pid":310000}</item>
+        <item>{"name":"虹口", "aid":310109, "cid":"021", "pid":310000}</item>
+        <item>{"name":"杨浦", "aid":310110, "cid":"021", "pid":310000}</item>
+        <item>{"name":"闵行", "aid":310112, "cid":"021", "pid":310000}</item>
+        <item>{"name":"宝山", "aid":310113, "cid":"021", "pid":310000}</item>
+        <item>{"name":"嘉定", "aid":310114, "cid":"021", "pid":310000}</item>
+        <item>{"name":"浦东新区", "aid":310115, "cid":"021", "pid":310000}</item>
+        <item>{"name":"金山", "aid":310116, "cid":"021", "pid":310000}</item>
+        <item>{"name":"松江", "aid":310117, "cid":"021", "pid":310000}</item>
+        <item>{"name":"青浦", "aid":310118, "cid":"021", "pid":310000}</item>
+        <item>{"name":"奉贤", "aid":310120, "cid":"021", "pid":310000}</item>
+        <item>{"name":"崇明", "aid":310151, "cid":"021", "pid":310000}</item>
+        <item>{"name":"万州", "aid":500101, "cid":"023", "pid":500000}</item>
+        <item>{"name":"涪陵", "aid":500102, "cid":"023", "pid":500000}</item>
+        <item>{"name":"渝中", "aid":500103, "cid":"023", "pid":500000}</item>
+        <item>{"name":"大渡口", "aid":500104, "cid":"023", "pid":500000}</item>
+        <item>{"name":"江北", "aid":500105, "cid":"023", "pid":500000}</item>
+        <item>{"name":"沙坪坝", "aid":500106, "cid":"023", "pid":500000}</item>
+        <item>{"name":"九龙坡", "aid":500107, "cid":"023", "pid":500000}</item>
+        <item>{"name":"南岸", "aid":500108, "cid":"023", "pid":500000}</item>
+        <item>{"name":"北碚", "aid":500109, "cid":"023", "pid":500000}</item>
+        <item>{"name":"綦江", "aid":500110, "cid":"023", "pid":500000}</item>
+        <item>{"name":"大足", "aid":500111, "cid":"023", "pid":500000}</item>
+        <item>{"name":"渝北", "aid":500112, "cid":"023", "pid":500000}</item>
+        <item>{"name":"巴南", "aid":500113, "cid":"023", "pid":500000}</item>
+        <item>{"name":"黔江", "aid":500114, "cid":"023", "pid":500000}</item>
+        <item>{"name":"长寿", "aid":500115, "cid":"023", "pid":500000}</item>
+        <item>{"name":"江津", "aid":500116, "cid":"023", "pid":500000}</item>
+        <item>{"name":"合川", "aid":500117, "cid":"023", "pid":500000}</item>
+        <item>{"name":"永川", "aid":500118, "cid":"023", "pid":500000}</item>
+        <item>{"name":"南川", "aid":500119, "cid":"023", "pid":500000}</item>
+        <item>{"name":"璧山", "aid":500120, "cid":"023", "pid":500000}</item>
+        <item>{"name":"铜梁", "aid":500151, "cid":"023", "pid":500000}</item>
+        <item>{"name":"潼南", "aid":500152, "cid":"023", "pid":500000}</item>
+        <item>{"name":"荣昌", "aid":500153, "cid":"023", "pid":500000}</item>
+        <item>{"name":"梁平", "aid":500228, "cid":"023", "pid":500000}</item>
+        <item>{"name":"城口", "aid":500229, "cid":"023", "pid":500000}</item>
+        <item>{"name":"丰都", "aid":500230, "cid":"023", "pid":500000}</item>
+        <item>{"name":"垫江", "aid":500231, "cid":"023", "pid":500000}</item>
+        <item>{"name":"武隆", "aid":500232, "cid":"023", "pid":500000}</item>
+        <item>{"name":"忠县", "aid":500233, "cid":"023", "pid":500000}</item>
+        <item>{"name":"开县", "aid":500234, "cid":"023", "pid":500000}</item>
+        <item>{"name":"云阳", "aid":500235, "cid":"023", "pid":500000}</item>
+        <item>{"name":"奉节", "aid":500236, "cid":"023", "pid":500000}</item>
+        <item>{"name":"巫山", "aid":500237, "cid":"023", "pid":500000}</item>
+        <item>{"name":"巫溪", "aid":500238, "cid":"023", "pid":500000}</item>
+        <item>{"name":"石柱", "aid":500240, "cid":"023", "pid":500000}</item>
+        <item>{"name":"秀山", "aid":500241, "cid":"023", "pid":500000}</item>
+        <item>{"name":"酉阳", "aid":500242, "cid":"023", "pid":500000}</item>
+        <item>{"name":"彭水", "aid":500243, "cid":"023", "pid":500000}</item>
+        <item>{"name":"Beirut", "aid":130600, "cid":"0312", "pid":130000}</item>
+        <item>{"name":"Baalbek", "aid":130800, "cid":"0314", "pid":130000}</item>
+        <item>{"name":"沧州", "aid":130900, "cid":"0317", "pid":130000}</item>
+        <item>{"name":"邯郸", "aid":130400, "cid":"0310", "pid":130000}</item>
+        <item>{"name":"衡水", "aid":131100, "cid":"0318", "pid":130000}</item>
+        <item>{"name":"廊坊", "aid":131000, "cid":"0316", "pid":130000}</item>
+        <item>{"name":"秦皇岛", "aid":130300, "cid":"0335", "pid":130000}</item>
+        <item>{"name":"石家庄", "aid":130100, "cid":"0311", "pid":130000}</item>
+        <item>{"name":"唐山", "aid":130200, "cid":"0315", "pid":130000}</item>
+        <item>{"name":"邢台", "aid":130500, "cid":"0319", "pid":130000}</item>
+        <item>{"name":"张家口", "aid":130700, "cid":"0313", "pid":130000}</item>
+        <item>{"name":"Al Kuwait", "aid":140100, "cid":"0351", "pid":140000}</item>
+        <item>{"name":"大同", "aid":140200, "cid":"0352", "pid":140000}</item>
+        <item>{"name":"阳泉", "aid":140300, "cid":"0353", "pid":140000}</item>
+        <item>{"name":"长治", "aid":140400, "cid":"0355", "pid":140000}</item>
+        <item>{"name":"晋城", "aid":140500, "cid":"0356", "pid":140000}</item>
+        <item>{"name":"朔州", "aid":140600, "cid":"0349", "pid":140000}</item>
+        <item>{"name":"晋中", "aid":140700, "cid":"0354", "pid":140000}</item>
+        <item>{"name":"运城", "aid":140800, "cid":"0359", "pid":140000}</item>
+        <item>{"name":"忻州", "aid":140900, "cid":"0350", "pid":140000}</item>
+        <item>{"name":"临汾", "aid":141000, "cid":"0357", "pid":140000}</item>
+        <item>{"name":"吕梁", "aid":141100, "cid":"0358", "pid":140000}</item>
+        <item>{"name":"Doha", "aid":152900, "cid":"0483", "pid":150000}</item>
+        <item>{"name":"包头", "aid":150200, "cid":"0472", "pid":150000}</item>
+        <item>{"name":"巴彦淖尔", "aid":150800, "cid":"0478", "pid":150000}</item>
+        <item>{"name":"赤峰", "aid":150400, "cid":"0476", "pid":150000}</item>
+        <item>{"name":"鄂尔多斯", "aid":150600, "cid":"0477", "pid":150000}</item>
+        <item>{"name":"呼和浩特", "aid":150100, "cid":"0471", "pid":150000}</item>
+        <item>{"name":"呼伦贝尔", "aid":150700, "cid":"0470", "pid":150000}</item>
+        <item>{"name":"通辽", "aid":150500, "cid":"0475", "pid":150000}</item>
+        <item>{"name":"乌海", "aid":150300, "cid":"0473", "pid":150000}</item>
+        <item>{"name":"乌兰察布", "aid":150900, "cid":"0474", "pid":150000}</item>
+        <item>{"name":"兴安", "aid":152200, "cid":"0482", "pid":150000}</item>
+        <item>{"name":"锡林郭勒", "aid":152500, "cid":"0479", "pid":150000}</item>
+        <item>{"name":"Manama", "aid":210100, "cid":"024", "pid":210000}</item>
+        <item>{"name":"大连", "aid":210200, "cid":"0411", "pid":210000}</item>
+        <item>{"name":"鞍山", "aid":210300, "cid":"0412", "pid":210000}</item>
+        <item>{"name":"抚顺", "aid":210400, "cid":"0413", "pid":210000}</item>
+        <item>{"name":"本溪", "aid":210500, "cid":"0414", "pid":210000}</item>
+        <item>{"name":"丹东", "aid":210600, "cid":"0415", "pid":210000}</item>
+        <item>{"name":"锦州", "aid":210700, "cid":"0416", "pid":210000}</item>
+        <item>{"name":"营口", "aid":210800, "cid":"0417", "pid":210000}</item>
+        <item>{"name":"阜新", "aid":210900, "cid":"0418", "pid":210000}</item>
+        <item>{"name":"辽阳", "aid":211000, "cid":"0419", "pid":210000}</item>
+        <item>{"name":"盘锦", "aid":211100, "cid":"0427", "pid":210000}</item>
+        <item>{"name":"铁岭", "aid":211200, "cid":"0410", "pid":210000}</item>
+        <item>{"name":"朝阳", "aid":211300, "cid":"0421", "pid":210000}</item>
+        <item>{"name":"葫芦岛", "aid":211400, "cid":"0429", "pid":210000}</item>
+        <item>{"name":"长春", "aid":220100, "cid":"0431", "pid":220000}</item>
+        <item>{"name":"吉林", "aid":220200, "cid":"0432", "pid":220000}</item>
+        <item>{"name":"四平", "aid":220300, "cid":"0434", "pid":220000}</item>
+        <item>{"name":"辽源", "aid":220400, "cid":"0437", "pid":220000}</item>
+        <item>{"name":"通化", "aid":220500, "cid":"0435", "pid":220000}</item>
+        <item>{"name":"白山", "aid":220600, "cid":"0439", "pid":220000}</item>
+        <item>{"name":"松原", "aid":220700, "cid":"0438", "pid":220000}</item>
+        <item>{"name":"白城", "aid":220800, "cid":"0436", "pid":220000}</item>
+        <item>{"name":"延边", "aid":222400, "cid":"1433", "pid":220000}</item>
+        <item>{"name":"大庆", "aid":230600, "cid":"0459", "pid":230000}</item>
+        <item>{"name":"大兴安岭", "aid":232700, "cid":"0457", "pid":230000}</item>
+        <item>{"name":"哈尔滨", "aid":230100, "cid":"0451", "pid":230000}</item>
+        <item>{"name":"鹤岗", "aid":230400, "cid":"0468", "pid":230000}</item>
+        <item>{"name":"黑河", "aid":231100, "cid":"0456", "pid":230000}</item>
+        <item>{"name":"佳木斯", "aid":230800, "cid":"0454", "pid":230000}</item>
+        <item>{"name":"鸡西", "aid":230300, "cid":"0467", "pid":230000}</item>
+        <item>{"name":"牡丹江", "aid":231000, "cid":"0453", "pid":230000}</item>
+        <item>{"name":"齐齐哈尔", "aid":230200, "cid":"0452", "pid":230000}</item>
+        <item>{"name":"七台河", "aid":230900, "cid":"0464", "pid":230000}</item>
+        <item>{"name":"绥化", "aid":231200, "cid":"0455", "pid":230000}</item>
+        <item>{"name":"双鸭山", "aid":230500, "cid":"0469", "pid":230000}</item>
+        <item>{"name":"伊春", "aid":230700, "cid":"0458", "pid":230000}</item>
+        <item>{"name":"南京", "aid":320100, "cid":"025", "pid":320000}</item>
+        <item>{"name":"无锡", "aid":320200, "cid":"0510", "pid":320000}</item>
+        <item>{"name":"徐州", "aid":320300, "cid":"0516", "pid":320000}</item>
+        <item>{"name":"常州", "aid":320400, "cid":"0519", "pid":320000}</item>
+        <item>{"name":"苏州", "aid":320500, "cid":"0512", "pid":320000}</item>
+        <item>{"name":"南通", "aid":320600, "cid":"0513", "pid":320000}</item>
+        <item>{"name":"连云港", "aid":320700, "cid":"0518", "pid":320000}</item>
+        <item>{"name":"淮安", "aid":320800, "cid":"0517", "pid":320000}</item>
+        <item>{"name":"盐城", "aid":320900, "cid":"0515", "pid":320000}</item>
+        <item>{"name":"扬州", "aid":321000, "cid":"0514", "pid":320000}</item>
+        <item>{"name":"镇江", "aid":321100, "cid":"0511", "pid":320000}</item>
+        <item>{"name":"泰州", "aid":321200, "cid":"0523", "pid":320000}</item>
+        <item>{"name":"宿迁", "aid":321300, "cid":"0527", "pid":320000}</item>
+        <item>{"name":"杭州", "aid":330100, "cid":"0571", "pid":330000}</item>
+        <item>{"name":"宁波", "aid":330200, "cid":"0574", "pid":330000}</item>
+        <item>{"name":"温州", "aid":330300, "cid":"0577", "pid":330000}</item>
+        <item>{"name":"嘉兴", "aid":330400, "cid":"0573", "pid":330000}</item>
+        <item>{"name":"湖州", "aid":330500, "cid":"0572", "pid":330000}</item>
+        <item>{"name":"绍兴", "aid":330600, "cid":"0575", "pid":330000}</item>
+        <item>{"name":"金华", "aid":330700, "cid":"0579", "pid":330000}</item>
+        <item>{"name":"衢州", "aid":330800, "cid":"0570", "pid":330000}</item>
+        <item>{"name":"舟山", "aid":330900, "cid":"0580", "pid":330000}</item>
+        <item>{"name":"台州", "aid":331000, "cid":"0576", "pid":330000}</item>
+        <item>{"name":"丽水", "aid":331100, "cid":"0578", "pid":330000}</item>
+        <item>{"name":"安庆", "aid":340800, "cid":"0556", "pid":340000}</item>
+        <item>{"name":"蚌埠", "aid":340300, "cid":"0552", "pid":340000}</item>
+        <item>{"name":"亳州", "aid":341600, "cid":"0558", "pid":340000}</item>
+        <item>{"name":"巢湖", "aid":340181, "cid":"0551", "pid":340000}</item>
+        <item>{"name":"滁州", "aid":341100, "cid":"0550", "pid":340000}</item>
+        <item>{"name":"池州", "aid":341700, "cid":"0566", "pid":340000}</item>
+        <item>{"name":"阜阳", "aid":341200, "cid":"1558", "pid":340000}</item>
+        <item>{"name":"淮北", "aid":340600, "cid":"0561", "pid":340000}</item>
+        <item>{"name":"合肥", "aid":340100, "cid":"0551", "pid":340000}</item>
+        <item>{"name":"淮南", "aid":340400, "cid":"0554", "pid":340000}</item>
+        <item>{"name":"黄山", "aid":341000, "cid":"0559", "pid":340000}</item>
+        <item>{"name":"六安", "aid":341500, "cid":"0564", "pid":340000}</item>
+        <item>{"name":"马鞍山", "aid":340500, "cid":"0555", "pid":340000}</item>
+        <item>{"name":"宿州", "aid":341300, "cid":"0557", "pid":340000}</item>
+        <item>{"name":"铜陵", "aid":340700, "cid":"0562", "pid":340000}</item>
+        <item>{"name":"芜湖", "aid":340200, "cid":"0553", "pid":340000}</item>
+        <item>{"name":"宣城", "aid":341800, "cid":"0563", "pid":340000}</item>
+        <item>{"name":"福州", "aid":350100, "cid":"0591", "pid":350000}</item>
+        <item>{"name":"厦门", "aid":350200, "cid":"0592", "pid":350000}</item>
+        <item>{"name":"莆田", "aid":350300, "cid":"0594", "pid":350000}</item>
+        <item>{"name":"三明", "aid":350400, "cid":"0598", "pid":350000}</item>
+        <item>{"name":"泉州", "aid":350500, "cid":"0595", "pid":350000}</item>
+        <item>{"name":"漳州", "aid":350600, "cid":"0596", "pid":350000}</item>
+        <item>{"name":"南平", "aid":350700, "cid":"0599", "pid":350000}</item>
+        <item>{"name":"龙岩", "aid":350800, "cid":"0597", "pid":350000}</item>
+        <item>{"name":"宁德", "aid":350900, "cid":"0593", "pid":350000}</item>
+        <item>{"name":"南昌", "aid":360100, "cid":"0791", "pid":360000}</item>
+        <item>{"name":"景德镇", "aid":360200, "cid":"0798", "pid":360000}</item>
+        <item>{"name":"萍乡", "aid":360300, "cid":"0799", "pid":360000}</item>
+        <item>{"name":"九江", "aid":360400, "cid":"0792", "pid":360000}</item>
+        <item>{"name":"新余", "aid":360500, "cid":"0790", "pid":360000}</item>
+        <item>{"name":"鹰潭", "aid":360600, "cid":"0701", "pid":360000}</item>
+        <item>{"name":"赣州", "aid":360700, "cid":"0797", "pid":360000}</item>
+        <item>{"name":"吉安", "aid":360800, "cid":"0796", "pid":360000}</item>
+        <item>{"name":"宜春", "aid":360900, "cid":"0795", "pid":360000}</item>
+        <item>{"name":"抚州", "aid":361000, "cid":"0794", "pid":360000}</item>
+        <item>{"name":"上饶", "aid":361100, "cid":"0793", "pid":360000}</item>
+        <item>{"name":"济南", "aid":370100, "cid":"0531", "pid":370000}</item>
+        <item>{"name":"青岛", "aid":370200, "cid":"0532", "pid":370000}</item>
+        <item>{"name":"淄博", "aid":370300, "cid":"0533", "pid":370000}</item>
+        <item>{"name":"枣庄", "aid":370400, "cid":"0632", "pid":370000}</item>
+        <item>{"name":"东营", "aid":370500, "cid":"0546", "pid":370000}</item>
+        <item>{"name":"烟台", "aid":370600, "cid":"0535", "pid":370000}</item>
+        <item>{"name":"潍坊", "aid":370700, "cid":"0536", "pid":370000}</item>
+        <item>{"name":"济宁", "aid":370800, "cid":"0537", "pid":370000}</item>
+        <item>{"name":"泰安", "aid":370900, "cid":"0538", "pid":370000}</item>
+        <item>{"name":"威海", "aid":371000, "cid":"0631", "pid":370000}</item>
+        <item>{"name":"日照", "aid":371100, "cid":"0633", "pid":370000}</item>
+        <item>{"name":"莱芜", "aid":371200, "cid":"0634", "pid":370000}</item>
+        <item>{"name":"临沂", "aid":371300, "cid":"0539", "pid":370000}</item>
+        <item>{"name":"德州", "aid":371400, "cid":"0534", "pid":370000}</item>
+        <item>{"name":"聊城", "aid":371500, "cid":"0635", "pid":370000}</item>
+        <item>{"name":"滨州", "aid":371600, "cid":"0543", "pid":370000}</item>
+        <item>{"name":"菏泽", "aid":371700, "cid":"0530", "pid":370000}</item>
+        <item>{"name":"安阳", "aid":410500, "cid":"0372", "pid":410000}</item>
+        <item>{"name":"鹤壁", "aid":410600, "cid":"0392", "pid":410000}</item>
+        <item>{"name":"济源", "aid":419001, "cid":"1391", "pid":410000}</item>
+        <item>{"name":"焦作", "aid":410800, "cid":"0391", "pid":410000}</item>
+        <item>{"name":"开封", "aid":410200, "cid":"0378", "pid":410000}</item>
+        <item>{"name":"漯河", "aid":411100, "cid":"0395", "pid":410000}</item>
+        <item>{"name":"洛阳", "aid":410300, "cid":"0379", "pid":410000}</item>
+        <item>{"name":"南阳", "aid":411300, "cid":"0377", "pid":410000}</item>
+        <item>{"name":"平顶山", "aid":410400, "cid":"0375", "pid":410000}</item>
+        <item>{"name":"濮阳", "aid":410900, "cid":"0393", "pid":410000}</item>
+        <item>{"name":"三门峡", "aid":411200, "cid":"0398", "pid":410000}</item>
+        <item>{"name":"商丘", "aid":411400, "cid":"0370", "pid":410000}</item>
+        <item>{"name":"许昌", "aid":411000, "cid":"0374", "pid":410000}</item>
+        <item>{"name":"新乡", "aid":410700, "cid":"0373", "pid":410000}</item>
+        <item>{"name":"信阳", "aid":411500, "cid":"0376", "pid":410000}</item>
+        <item>{"name":"周口", "aid":411600, "cid":"0394", "pid":410000}</item>
+        <item>{"name":"驻马店", "aid":411700, "cid":"0396", "pid":410000}</item>
+        <item>{"name":"郑州", "aid":410100, "cid":"0371", "pid":410000}</item>
+        <item>{"name":"恩施", "aid":422800, "cid":"0718", "pid":420000}</item>
+        <item>{"name":"鄂州", "aid":420700, "cid":"0711", "pid":420000}</item>
+        <item>{"name":"黄冈", "aid":421100, "cid":"0713", "pid":420000}</item>
+        <item>{"name":"黄石", "aid":420200, "cid":"0714", "pid":420000}</item>
+        <item>{"name":"荆门", "aid":420800, "cid":"0724", "pid":420000}</item>
+        <item>{"name":"荆州", "aid":421000, "cid":"0716", "pid":420000}</item>
+        <item>{"name":"潜江", "aid":429005, "cid":"2728", "pid":420000}</item>
+        <item>{"name":"神农架", "aid":429021, "cid":"1719", "pid":420000}</item>
+        <item>{"name":"十堰", "aid":420300, "cid":"0719", "pid":420000}</item>
+        <item>{"name":"随州", "aid":421300, "cid":"0722", "pid":420000}</item>
+        <item>{"name":"天门", "aid":429006, "cid":"1728", "pid":420000}</item>
+        <item>{"name":"武汉", "aid":420100, "cid":"027", "pid":420000}</item>
+        <item>{"name":"孝感", "aid":420900, "cid":"0712", "pid":420000}</item>
+        <item>{"name":"咸宁", "aid":421200, "cid":"0715", "pid":420000}</item>
+        <item>{"name":"仙桃", "aid":429004, "cid":"0728", "pid":420000}</item>
+        <item>{"name":"襄阳", "aid":420600, "cid":"0710", "pid":420000}</item>
+        <item>{"name":"宜昌", "aid":420500, "cid":"0717", "pid":420000}</item>
+        <item>{"name":"常德", "aid":430700, "cid":"0736", "pid":430000}</item>
+        <item>{"name":"长沙", "aid":430100, "cid":"0731", "pid":430000}</item>
+        <item>{"name":"株洲", "aid":430200, "cid":"0733", "pid":430000}</item>
+        <item>{"name":"湘潭", "aid":430300, "cid":"0732", "pid":430000}</item>
+        <item>{"name":"衡阳", "aid":430400, "cid":"0734", "pid":430000}</item>
+        <item>{"name":"邵阳", "aid":430500, "cid":"0739", "pid":430000}</item>
+        <item>{"name":"岳阳", "aid":430600, "cid":"0730", "pid":430000}</item>
+        <item>{"name":"张家界", "aid":430800, "cid":"0744", "pid":430000}</item>
+        <item>{"name":"益阳", "aid":430900, "cid":"0737", "pid":430000}</item>
+        <item>{"name":"郴州", "aid":431000, "cid":"0735", "pid":430000}</item>
+        <item>{"name":"永州", "aid":431100, "cid":"0746", "pid":430000}</item>
+        <item>{"name":"怀化", "aid":431200, "cid":"0745", "pid":430000}</item>
+        <item>{"name":"娄底", "aid":431300, "cid":"0738", "pid":430000}</item>
+        <item>{"name":"湘西", "aid":433100, "cid":"0743", "pid":430000}</item>
+        <item>{"name":"广州", "aid":440100, "cid":"020", "pid":440000}</item>
+        <item>{"name":"潮州", "aid":445100, "cid":"0768", "pid":440000}</item>
+        <item>{"name":"东莞", "aid":441900, "cid":"0769", "pid":440000}</item>
+        <item>{"name":"佛山", "aid":440600, "cid":"0757", "pid":440000}</item>
+        <item>{"name":"河源", "aid":441600, "cid":"0762", "pid":440000}</item>
+        <item>{"name":"惠州", "aid":441300, "cid":"0752", "pid":440000}</item>
+        <item>{"name":"江门", "aid":440700, "cid":"0750", "pid":440000}</item>
+        <item>{"name":"揭阳", "aid":445200, "cid":"0663", "pid":440000}</item>
+        <item>{"name":"茂名", "aid":440900, "cid":"0668", "pid":440000}</item>
+        <item>{"name":"梅州", "aid":441400, "cid":"0753", "pid":440000}</item>
+        <item>{"name":"清远", "aid":441800, "cid":"0763", "pid":440000}</item>
+        <item>{"name":"韶关", "aid":440200, "cid":"0751", "pid":440000}</item>
+        <item>{"name":"汕头", "aid":440500, "cid":"0754", "pid":440000}</item>
+        <item>{"name":"汕尾", "aid":441500, "cid":"0660", "pid":440000}</item>
+        <item>{"name":"深圳", "aid":440300, "cid":"0755", "pid":440000}</item>
+        <item>{"name":"云浮", "aid":445300, "cid":"0766", "pid":440000}</item>
+        <item>{"name":"阳江", "aid":441700, "cid":"0662", "pid":440000}</item>
+        <item>{"name":"珠海", "aid":440400, "cid":"0756", "pid":440000}</item>
+        <item>{"name":"湛江", "aid":440800, "cid":"0759", "pid":440000}</item>
+        <item>{"name":"肇庆", "aid":441200, "cid":"0758", "pid":440000}</item>
+        <item>{"name":"中山", "aid":442000, "cid":"0760", "pid":440000}</item>
+        <item>{"name":"北海", "aid":450500, "cid":"0779", "pid":450000}</item>
+        <item>{"name":"百色", "aid":451000, "cid":"0776", "pid":450000}</item>
+        <item>{"name":"崇左", "aid":451400, "cid":"1771", "pid":450000}</item>
+        <item>{"name":"防城港", "aid":450600, "cid":"0770", "pid":450000}</item>
+        <item>{"name":"贵港", "aid":450800, "cid":"1755", "pid":450000}</item>
+        <item>{"name":"桂林", "aid":450300, "cid":"0773", "pid":450000}</item>
+        <item>{"name":"河池", "aid":451200, "cid":"0778", "pid":450000}</item>
+        <item>{"name":"贺州", "aid":451100, "cid":"1774", "pid":450000}</item>
+        <item>{"name":"来宾", "aid":451300, "cid":"1772", "pid":450000}</item>
+        <item>{"name":"柳州", "aid":450200, "cid":"0772", "pid":450000}</item>
+        <item>{"name":"南宁", "aid":450100, "cid":"0771", "pid":450000}</item>
+        <item>{"name":"钦州", "aid":450700, "cid":"0777", "pid":450000}</item>
+        <item>{"name":"梧州", "aid":450400, "cid":"0774", "pid":450000}</item>
+        <item>{"name":"玉林", "aid":450900, "cid":"0775", "pid":450000}</item>
+        <item>{"name":"白沙", "aid":469025, "cid":"0802", "pid":460000}</item>
+        <item>{"name":"保亭", "aid":469029, "cid":"0801", "pid":460000}</item>
+        <item>{"name":"昌江", "aid":469026, "cid":"0803", "pid":460000}</item>
+        <item>{"name":"澄迈", "aid":469023, "cid":"0804", "pid":460000}</item>
+        <item>{"name":"定安", "aid":469021, "cid":"0806", "pid":460000}</item>
+        <item>{"name":"东方", "aid":469007, "cid":"0807", "pid":460000}</item>
+        <item>{"name":"儋州", "aid":460400, "cid":"0805", "pid":460000}</item>
+        <item>{"name":"海口", "aid":460100, "cid":"0898", "pid":460000}</item>
+        <item>{"name":"乐东", "aid":469027, "cid":"2802", "pid":460000}</item>
+        <item>{"name":"临高", "aid":469024, "cid":"1896", "pid":460000}</item>
+        <item>{"name":"陵水", "aid":469028, "cid":"0809", "pid":460000}</item>
+        <item>{"name":"琼海", "aid":469002, "cid":"1894", "pid":460000}</item>
+        <item>{"name":"琼中", "aid":469030, "cid":"1899", "pid":460000}</item>
+        <item>{"name":"三亚", "aid":460200, "cid":"0899", "pid":460000}</item>
+        <item>{"name":"三沙", "aid":460300, "cid":"2898", "pid":460000}</item>
+        <item>{"name":"屯昌", "aid":469022, "cid":"1892", "pid":460000}</item>
+        <item>{"name":"文昌", "aid":469005, "cid":"1893", "pid":460000}</item>
+        <item>{"name":"万宁", "aid":469006, "cid":"1898", "pid":460000}</item>
+        <item>{"name":"五指山", "aid":469001, "cid":"1897", "pid":460000}</item>
+        <item>{"name":"成都", "aid":510100, "cid":"028", "pid":510000}</item>
+        <item>{"name":"自贡", "aid":510300, "cid":"0813", "pid":510000}</item>
+        <item>{"name":"攀枝花", "aid":510400, "cid":"0812", "pid":510000}</item>
+        <item>{"name":"泸州", "aid":510500, "cid":"0830", "pid":510000}</item>
+        <item>{"name":"德阳", "aid":510600, "cid":"0838", "pid":510000}</item>
+        <item>{"name":"绵阳", "aid":510700, "cid":"0816", "pid":510000}</item>
+        <item>{"name":"广元", "aid":510800, "cid":"0839", "pid":510000}</item>
+        <item>{"name":"遂宁", "aid":510900, "cid":"0825", "pid":510000}</item>
+        <item>{"name":"内江", "aid":511000, "cid":"1832", "pid":510000}</item>
+        <item>{"name":"乐山", "aid":511100, "cid":"0833", "pid":510000}</item>
+        <item>{"name":"南充", "aid":511300, "cid":"0817", "pid":510000}</item>
+        <item>{"name":"眉山", "aid":511400, "cid":"1833", "pid":510000}</item>
+        <item>{"name":"宜宾", "aid":511500, "cid":"0831", "pid":510000}</item>
+        <item>{"name":"广安", "aid":511600, "cid":"0826", "pid":510000}</item>
+        <item>{"name":"达州", "aid":511700, "cid":"0818", "pid":510000}</item>
+        <item>{"name":"雅安", "aid":511800, "cid":"0835", "pid":510000}</item>
+        <item>{"name":"巴中", "aid":511900, "cid":"0827", "pid":510000}</item>
+        <item>{"name":"资阳", "aid":512000, "cid":"0832", "pid":510000}</item>
+        <item>{"name":"阿坝", "aid":513200, "cid":"0837", "pid":510000}</item>
+        <item>{"name":"甘孜", "aid":513300, "cid":"0836", "pid":510000}</item>
+        <item>{"name":"凉山", "aid":513400, "cid":"0834", "pid":510000}</item>
+        <item>{"name":"安顺", "aid":520400, "cid":"0853", "pid":520000}</item>
+        <item>{"name":"毕节", "aid":520500, "cid":"0857", "pid":520000}</item>
+        <item>{"name":"贵阳", "aid":520100, "cid":"0851", "pid":520000}</item>
+        <item>{"name":"六盘水", "aid":520200, "cid":"0858", "pid":520000}</item>
+        <item>{"name":"黔东南", "aid":522600, "cid":"0855", "pid":520000}</item>
+        <item>{"name":"黔南", "aid":522700, "cid":"0854", "pid":520000}</item>
+        <item>{"name":"黔西南", "aid":522300, "cid":"0859", "pid":520000}</item>
+        <item>{"name":"铜仁", "aid":520600, "cid":"0856", "pid":520000}</item>
+        <item>{"name":"遵义", "aid":520300, "cid":"0852", "pid":520000}</item>
+        <item>{"name":"昆明", "aid":530100, "cid":"0871", "pid":530000}</item>
+        <item>{"name":"曲靖", "aid":530300, "cid":"0874", "pid":530000}</item>
+        <item>{"name":"玉溪", "aid":530400, "cid":"0877", "pid":530000}</item>
+        <item>{"name":"保山", "aid":530500, "cid":"0875", "pid":530000}</item>
+        <item>{"name":"昭通", "aid":530600, "cid":"0870", "pid":530000}</item>
+        <item>{"name":"丽江", "aid":530700, "cid":"0888", "pid":530000}</item>
+        <item>{"name":"普洱", "aid":530800, "cid":"0879", "pid":530000}</item>
+        <item>{"name":"临沧", "aid":530900, "cid":"0883", "pid":530000}</item>
+        <item>{"name":"楚雄", "aid":532300, "cid":"0878", "pid":530000}</item>
+        <item>{"name":"红河", "aid":532500, "cid":"0873", "pid":530000}</item>
+        <item>{"name":"文山", "aid":532600, "cid":"0876", "pid":530000}</item>
+        <item>{"name":"西双版纳", "aid":532800, "cid":"0691", "pid":530000}</item>
+        <item>{"name":"大理", "aid":532900, "cid":"0872", "pid":530000}</item>
+        <item>{"name":"德宏", "aid":533100, "cid":"0692", "pid":530000}</item>
+        <item>{"name":"怒江", "aid":533300, "cid":"0886", "pid":530000}</item>
+        <item>{"name":"迪庆", "aid":533400, "cid":"0887", "pid":530000}</item>
+        <item>{"name":"拉萨", "aid":540100, "cid":"0891", "pid":540000}</item>
+        <item>{"name":"日喀则", "aid":540200, "cid":"0892", "pid":540000}</item>
+        <item>{"name":"昌都", "aid":540300, "cid":"0895", "pid":540000}</item>
+        <item>{"name":"林芝", "aid":540400, "cid":"0894", "pid":540000}</item>
+        <item>{"name":"山南", "aid":540500, "cid":"0893", "pid":540000}</item>
+        <item>{"name":"那曲", "aid":542400, "cid":"0896", "pid":540000}</item>
+        <item>{"name":"阿里", "aid":542500, "cid":"0897", "pid":540000}</item>
+        <item>{"name":"西安", "aid":610100, "cid":"029", "pid":610000}</item>
+        <item>{"name":"铜川", "aid":610200, "cid":"0919", "pid":610000}</item>
+        <item>{"name":"宝鸡", "aid":610300, "cid":"0917", "pid":610000}</item>
+        <item>{"name":"咸阳", "aid":610400, "cid":"0910", "pid":610000}</item>
+        <item>{"name":"渭南", "aid":610500, "cid":"0913", "pid":610000}</item>
+        <item>{"name":"延安", "aid":610600, "cid":"0911", "pid":610000}</item>
+        <item>{"name":"汉中", "aid":610700, "cid":"0916", "pid":610000}</item>
+        <item>{"name":"榆林", "aid":610800, "cid":"0912", "pid":610000}</item>
+        <item>{"name":"安康", "aid":610900, "cid":"0915", "pid":610000}</item>
+        <item>{"name":"商洛", "aid":611000, "cid":"0914", "pid":610000}</item>
+        <item>{"name":"白银", "aid":620400, "cid":"0943", "pid":620000}</item>
+        <item>{"name":"定西", "aid":621100, "cid":"0932", "pid":620000}</item>
+        <item>{"name":"甘南", "aid":623000, "cid":"0941", "pid":620000}</item>
+        <item>{"name":"金昌", "aid":620300, "cid":"0935", "pid":620000}</item>
+        <item>{"name":"酒泉", "aid":620900, "cid":"0937", "pid":620000}</item>
+        <item>{"name":"嘉峪关", "aid":620200, "cid":"1937", "pid":620000}</item>
+        <item>{"name":"陇南", "aid":621200, "cid":"2935", "pid":620000}</item>
+        <item>{"name":"临夏", "aid":622900, "cid":"0930", "pid":620000}</item>
+        <item>{"name":"兰州", "aid":620100, "cid":"0931", "pid":620000}</item>
+        <item>{"name":"平凉", "aid":620800, "cid":"0933", "pid":620000}</item>
+        <item>{"name":"庆阳", "aid":621000, "cid":"0934", "pid":620000}</item>
+        <item>{"name":"天水", "aid":620500, "cid":"0938", "pid":620000}</item>
+        <item>{"name":"武威", "aid":620600, "cid":"1935", "pid":620000}</item>
+        <item>{"name":"张掖", "aid":620700, "cid":"0936", "pid":620000}</item>
+        <item>{"name":"西宁", "aid":630100, "cid":"0971", "pid":630000}</item>
+        <item>{"name":"海东", "aid":630200, "cid":"0972", "pid":630000}</item>
+        <item>{"name":"海北", "aid":632200, "cid":"0970", "pid":630000}</item>
+        <item>{"name":"黄南", "aid":632300, "cid":"0973", "pid":630000}</item>
+        <item>{"name":"海南", "aid":632500, "cid":"0974", "pid":630000}</item>
+        <item>{"name":"果洛", "aid":632600, "cid":"0975", "pid":630000}</item>
+        <item>{"name":"玉树", "aid":632700, "cid":"0976", "pid":630000}</item>
+        <item>{"name":"海西", "aid":632800, "cid":"0977", "pid":630000}</item>
+        <item>{"name":"银川市", "aid":640100, "cid":"0951", "pid":640000}</item>
+        <item>{"name":"石嘴山市", "aid":640200, "cid":"0952", "pid":640000}</item>
+        <item>{"name":"吴忠市", "aid":640300, "cid":"0953", "pid":640000}</item>
+        <item>{"name":"固原市", "aid":640400, "cid":"0954", "pid":640000}</item>
+        <item>{"name":"中卫市", "aid":640500, "cid":"1953", "pid":640000}</item>
+        <item>{"name":"乌鲁木齐", "aid":650100, "cid":"0991", "pid":650000}</item>
+        <item>{"name":"乌鲁木齐市辖区", "aid":650101, "cid":"0991", "pid":650000}</item>
+        <item>{"name":"克拉玛依", "aid":650200, "cid":"0990", "pid":650000}</item>
+        <item>{"name":"吐鲁番", "aid":650400, "cid":"0995", "pid":650000}</item>
+        <item>{"name":"哈密", "aid":650500, "cid":"0902", "pid":650000}</item>
+        <item>{"name":"昌吉", "aid":652301, "cid":"0994", "pid":650000}</item>
+        <item>{"name":"博尔塔拉", "aid":652700, "cid":"0909", "pid":650000}</item>
+        <item>{"name":"巴音郭楞", "aid":652800, "cid":"0996", "pid":650000}</item>
+        <item>{"name":"阿克苏", "aid":652901, "cid":"0997", "pid":650000}</item>
+        <item>{"name":"克孜勒苏", "aid":653000, "cid":"0908", "pid":650000}</item>
+        <item>{"name":"喀什", "aid":653101, "cid":"0998", "pid":650000}</item>
+        <item>{"name":"和田", "aid":653201, "cid":"0903", "pid":650000}</item>
+        <item>{"name":"伊犁", "aid":654000, "cid":"0999", "pid":650000}</item>
+        <item>{"name":"塔城", "aid":654201, "cid":"0901", "pid":650000}</item>
+        <item>{"name":"阿勒泰", "aid":654301, "cid":"0906", "pid":650000}</item>
+        <item>{"name":"石河子", "aid":659001, "cid":"0993", "pid":650000}</item>
+        <item>{"name":"阿拉尔", "aid":659002, "cid":"1997", "pid":650000}</item>
+        <item>{"name":"图木舒克", "aid":659003, "cid":"1998", "pid":650000}</item>
+        <item>{"name":"五家渠", "aid":659004, "cid":"1994", "pid":650000}</item>
+        <item>{"name":"北屯", "aid":659005, "cid":"1906", "pid":650000}</item>
+        <item>{"name":"铁门关", "aid":659006, "cid":"1996", "pid":650000}</item>
+        <item>{"name":"双河", "aid":659007, "cid":"1909", "pid":650000}</item>
+        <item>{"name":"可克达拉", "aid":659008, "cid":"1999", "pid":650000}</item>
+        <item>{"name":"高雄市", "aid":710001, "cid":"1886", "pid":710000}</item>
+        <item>{"name":"花莲县", "aid":710018, "cid":"1886", "pid":710000}</item>
+        <item>{"name":"基隆市", "aid":710007, "cid":"1886", "pid":710000}</item>
+        <item>{"name":"嘉义市", "aid":710009, "cid":"1886", "pid":710000}</item>
+        <item>{"name":"嘉义县", "aid":710015, "cid":"1886", "pid":710000}</item>
+        <item>{"name":"连江县", "aid":710021, "cid":"1886", "pid":710000}</item>
+        <item>{"name":"苗栗县", "aid":710011, "cid":"1886", "pid":710000}</item>
+        <item>{"name":"南投县", "aid":710014, "cid":"1886", "pid":710000}</item>
+        <item>{"name":"屏东县", "aid":710016, "cid":"1886", "pid":710000}</item>
+        <item>{"name":"澎湖县", "aid":710020, "cid":"1886", "pid":710000}</item>
+        <item>{"name":"台北市", "aid":710002, "cid":"1886", "pid":710000}</item>
+        <item>{"name":"台东县", "aid":710017, "cid":"1886", "pid":710000}</item>
+        <item>{"name":"台南市", "aid":710006, "cid":"1886", "pid":710000}</item>
+        <item>{"name":"台中市", "aid":710005, "cid":"1886", "pid":710000}</item>
+        <item>{"name":"新北市", "aid":710003, "cid":"1886", "pid":710000}</item>
+        <item>{"name":"新竹市", "aid":710008, "cid":"1886", "pid":710000}</item>
+        <item>{"name":"新竹县", "aid":710010, "cid":"1886", "pid":710000}</item>
+        <item>{"name":"云林县", "aid":710013, "cid":"1886", "pid":710000}</item>
+        <item>{"name":"宜兰县", "aid":710019, "cid":"1886", "pid":710000}</item>
+        <item>{"name":"彰化县", "aid":710012, "cid":"1886", "pid":710000}</item>
+        <item>{"name":"北区", "aid":810013, "cid":"1852", "pid":810000}</item>
+        <item>{"name":"大埔区", "aid":810014, "cid":"1852", "pid":810000}</item>
+        <item>{"name":"东区", "aid":810003, "cid":"1852", "pid":810000}</item>
+        <item>{"name":"观塘区", "aid":810009, "cid":"1852", "pid":810000}</item>
+        <item>{"name":"黃大仙区", "aid":810008, "cid":"1852", "pid":810000}</item>
+        <item>{"name":"九龙城区", "aid":810007, "cid":"1852", "pid":810000}</item>
+        <item>{"name":"葵青区", "aid":810017, "cid":"1852", "pid":810000}</item>
+        <item>{"name":"离岛区", "aid":810018, "cid":"1852", "pid":810000}</item>
+        <item>{"name":"南区", "aid":810004, "cid":"1852", "pid":810000}</item>
+        <item>{"name":"荃湾区", "aid":810010, "cid":"1852", "pid":810000}</item>
+        <item>{"name":"深水埗区", "aid":810006, "cid":"1852", "pid":810000}</item>
+        <item>{"name":"沙田区", "aid":810016, "cid":"1852", "pid":810000}</item>
+        <item>{"name":"屯门区", "aid":810011, "cid":"1852", "pid":810000}</item>
+        <item>{"name":"湾仔区", "aid":810002, "cid":"1852", "pid":810000}</item>
+        <item>{"name":"西贡区", "aid":810015, "cid":"1852", "pid":810000}</item>
+        <item>{"name":"油尖旺区", "aid":810005, "cid":"1852", "pid":810000}</item>
+        <item>{"name":"元朗区", "aid":810012, "cid":"1852", "pid":810000}</item>
+        <item>{"name":"中西区", "aid":810001, "cid":"1852", "pid":810000}</item>
+        <item>{"name":"大堂区", "aid":820004, "cid":"1853", "pid":820000}</item>
+        <item>{"name":"风顺堂区", "aid":820005, "cid":"1853", "pid":820000}</item>
+        <item>{"name":"花地玛堂区", "aid":820001, "cid":"1853", "pid":820000}</item>
+        <item>{"name":"望德堂区", "aid":820003, "cid":"1853", "pid":820000}</item>
+        <item>{"name":"花王堂区", "aid":820002, "cid":"1853", "pid":820000}</item>
+        <item>{"name":"嘉模堂区", "aid":820006, "cid":"1853", "pid":820000}</item>
+        <item>{"name":"路氹填海区", "aid":820007, "cid":"1853", "pid":820000}</item>
+        <item>{"name":"聖方濟各堂区", "aid":820008, "cid":"1853", "pid":820000}</item>
+    </string-array>
+</resources>

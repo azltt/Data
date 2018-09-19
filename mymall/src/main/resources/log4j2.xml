@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="WARN">
+	<properties>
+		<!-- 日志备份目录 -->
+		<property name="SYS_LOG">log/my-game-admin/system</property>
+	</properties>
+	<appenders>
+		<!-- 定义控制台输出 -->
+		<Console name="Console" target="SYSTEM_OUT" follow="true">
+			<PatternLayout pattern="[%-5p][%d{yyyy-MM-dd HH:mm:ss.SSS}][%t][%F:%L] - %m%n" />
+		</Console>
+		<!-- 系统调试日志 -->
+		<RollingRandomAccessFile name="System" fileName="${SYS_LOG}.log" filePattern="${SYS_LOG}.%d{yyyy-MM-dd-HH}.log">
+			<PatternLayout pattern="[%-5p][%d{yyyy-MM-dd HH:mm:ss.SSS}][%t][%F:%L] - %m%n" />
+			<Policies>
+				<TimeBasedTriggeringPolicy interval="1" modulate="true" />
+			</Policies>
+		</RollingRandomAccessFile>
+	</appenders>
+	<loggers>
+		<!-- 3rdparty Loggers -->
+		<AsyncLogger name="org.springframework" level="INFO" />
+		<AsyncLogger name="io.netty" level="INFO" />
+		<AsyncLogger name="com.mysql" level="INFO" />
+		<AsyncLogger name="redis.clients" level="INFO" />
+		<AsyncLogger name="org.apache" level="INFO" />
+		<AsyncLogger name="com.aliyuncs" level="INFO" />
+		<AsyncLogger name="com.alibaba" level="INFO" />
+		<AsyncLogger name="com.azl" level="Debug" />
+		<AsyncLogger name="com.google" level="INFO" />
+		<!--All < Trace < Debug < Info < Warn < Error < Fatal < OFF. -->
+		<AsyncLogger name="System" level="Debug" additivity="false" includeLocation="true">
+			<appender-ref ref="System" />
+		</AsyncLogger>
+		<!-- OFF、FATAL、ERROR、WARN、INFO、DEBUG、TRACE、ALL -->
+		<AsyncLogger name="org.springframework" level="INFO" />
+		<AsyncLogger name="io.netty" level="INFO" />
+		<AsyncLogger name="com.mysql" level="INFO" />
+		<AsyncLogger name="redis.clients" level="INFO" />
+		<AsyncLogger name="org.apache" level="INFO" />
+		<AsyncLogger name="com.aliyuncs" level="INFO" />
+		<AsyncLogger name="com.alibaba" level="INFO" />
+		<AsyncLogger name="com.azl" level="Debug" />
+		<AsyncLogger name="com.google" level="INFO" />
+		<AsyncLogger name="System" level="Debug" additivity="false" includeLocation="true">
+			<appender-ref ref="System" />
+		</AsyncLogger>
+		<AsyncRoot level="Debug" includeLocation="true">
+			<appender-ref ref="Console" />
+			<appender-ref ref="System" />
+		</AsyncRoot>
+	</loggers>
+</configuration>
