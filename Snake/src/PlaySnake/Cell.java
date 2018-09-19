@@ -2,7 +2,7 @@ package PlaySnake;
 /**
  * 
  * @author azl11
- *
+ *haah
  */
 public class Cell {
 	 int l=25; 
