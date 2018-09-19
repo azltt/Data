@@ -2,7 +2,7 @@ package PlaySnake;
 /**
  * 
  * @author azl11
- *
+ *试一试是否冲突
  */
 public class Cell {
 	 int l=25; 
